@@ -60,6 +60,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Day2\Day2.csproj">
+      <Project>{dbf5f236-5ad8-4b1f-8927-08557ac22b37}</Project>
+      <Name>Day2</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Day1\Day1.csproj">
       <Project>{939ac4e4-165e-4780-850d-061e411370b9}</Project>
       <Name>Day1</Name>
