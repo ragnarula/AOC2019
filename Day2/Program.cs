@@ -58,7 +58,8 @@ namespace Day2
                     Array.Copy(memory, 0, workingMemory, 0, memory.Length);
                     workingMemory[1] = noun;
                     workingMemory[2] = verb;
-                    if(workingMemory[0] == 19690720)
+                    var p2result = RunOpcodes(workingMemory);
+                    if (workingMemory[0] == 19690720)
                     {
                         Console.WriteLine("Part 2 - Noun: {0}, Verb: {1}, Result: {2}", noun, verb, 100 * noun + verb);
                         break;
